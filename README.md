@@ -1,4 +1,5 @@
-# user_access_control
+# user_access_control for OpenWrt based devices
+
  This provides device(mac) and time based access control to wifi.
 
 This code is based on luci-access-control by k-szuster at the github - https://github.com/k-szuster/luci-access-control.
