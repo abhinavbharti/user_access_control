@@ -6,7 +6,7 @@ This code is based on luci-access-control by k-szuster at the github - https://g
 
 I have addded the ability to create user and associate devices with a particular user and then the access rules can be created.
 
-This software is designed for OpwnWrt routers. It allows you to restrict the internet access for specific hosts in your LAN. You can block the internet access permanently or on schedule basis for any MAC address. The schedule contains the time of a day and the deys of the week. New in version 4: You can also issue a "ticket" for any blocked user. It gives him an extraordinary access to the internet for a given time.
+This software is designed for OpwnWrt routers. It allows you to restrict the internet access for specific hosts in your LAN. You can block the internet access permanently or on schedule basis for any MAC address. The schedule contains the time of a day and the deys of the week. You can also issue a "ticket" for any blocked user. It gives him an extraordinary access to the internet for a given time.
 
 The software is a Luci app extending system's firewall, so it runs on any platform with no need of recompiling. Tested on OpenWrt CC and LEDE 17.01.1. 
 
