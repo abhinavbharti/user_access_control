@@ -10,15 +10,15 @@ This software is designed for OpwnWrt routers. It allows you to restrict the int
 
 The software is a Luci app extending system's firewall, so it runs on any platform with no need of recompiling. Tested on OpenWrt CC and LEDE 17.01.1. 
 
-NOTE: For times to be consistent it is advised to use NTP.
+NOTE: For time to be consistent it is advised to use NTP.
 
 After installation you'll find a new page in OpenWrt's GUI: Network/User Access control.
 
 To build the package OpenWrt
 
-The package is designed to be huilt on OpenWrt-CC, for any target (it is architecture independent).
+The package is designed to be built on OpenWrt-CC, for any target (it is architecture independent).
 
-    Place folder luci-access-control into your
+    Place folder user_access_control into your
 
     /feeds/luci/applications
 
@@ -36,12 +36,9 @@ from your openwrt folder.
 
 Here, you must include the following packages in your OpenWRT build for everything to work:
 
-	LuCI -> applications -> luci-app-access-control
+	LuCI -> applications -> user_access_control
 
-    Call make to compile OpenWRT with the selected package installed. You'll find it in /bin//packages/luci/luci-app-access-control_....ipk file.
+    Call make to compile OpenWRT with the selected package installed. You'll find it in bin/packages/luci/
 
-    On OpenWrt-BB, after installing the ipk, you need to additionally run this command on the device:
-
-	/etc/init.d/inetac enable
 
     Reboot.
